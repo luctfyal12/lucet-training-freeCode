@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="registform.css" rel="stylesheet">
     <title>Registration Forms</title>
 </head>
 <body>
-    <div></div>
+    <h1>Registration Form</h1>
+    <p>Please fill out this form with the required Information</p>
+    <form>
+        <fieldset>
+            <label>Enter Your First Name:</label><input type="text" required/>
+            <label>Enter Your Last Name:</label><input type="text" required/>
+            <label>Enter Your Email:</label><input type="email" required/>
+            <label>Create a New Password:</label><input type="password" required />
+        </fieldset>
+        <fieldset class="account">
+            <label> Personal Account</label><input class="check" type="radio" name="accountt"/>
+            <label> Business Account</label><input class="check" type="radio" name="accountt"/>
+            <label> I accept the <a href="#">terms and conditions</a></label><input class="check" type="checkbox" required/>
+        </fieldset>
+        <fieldset>
+            <label>Upload a profile piture:</label>
+            <input type="file"/>
+            <label>Input your age (years)</label>
+            <input type="text"/>
+            <label>How did you hear about us?</label>
+            <select>
+                <option>(select one)</option>
+                <option>News</option>
+                <option>YouTube</option>
+                <option>Twitter</option>
+                <option>Other</option>
+            </select>
+            <label for="bio">Provide a bio:<textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+              </label>
+        </fieldset>
+        <input type="submit"/>
+    </form>
 </body>
 </html>
