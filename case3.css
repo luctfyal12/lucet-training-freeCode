@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+}
+
+.container {
+    width: auto;
+    margin-top: 40px;
+}
+
+.marker {
+    height: 27px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.one {
+    background:linear-gradient(180deg, rgb(160, 84, 13), rgb(233, 66, 144), rgb(160, 84, 13));
+    box-shadow: 0 0 20px 0 rgb(160, 84, 13);
+}
+
+.two {
+    background:linear-gradient(180deg, rgb(80, 100, 0), #51ff51, rgb(80, 100, 0));
+    box-shadow: 0 0 20px 0 rgb(80, 100, 0);
+}
+
+.three {
+    background:linear-gradient(180deg, rgb(0, 80, 127), #5b83f1, rgb(0, 80, 127));
+    box-shadow: 0 0 20px 0 rgb(0, 80, 127);
+}
+
+.transparant {
+    background: rgba(255, 255, 255, 40%);
+    height: 27px;
+    width: 110px;
+    margin-left: 70px;
+}
+
+.strips {
+    background: none;
+    height: 27px;
+    width: 5px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
