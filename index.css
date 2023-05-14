@@ -174,7 +174,7 @@ input[type="submit"] {
 .bg-space {
     background-color: rgba(0, 255, 0, 20%);
     height: 400px;
-    border: 1px solid
+    border: 1px solid rgba(0, 255, 0, 20%);
 }
 
 .bg-space h1 {
@@ -185,26 +185,30 @@ input[type="submit"] {
 
 .container-package1 {
     width: 1500px;
-    border: 1px solid black;
     display: flex;
     height: 250px;
     margin: 40px auto;
     vertical-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
 .container-package2 {
     width: 1500px;
-    border: 1px solid black;
     display: flex;
     height: 250px;
     margin: 40px auto;
     vertical-align: center;
+   /* padding-bottom: 100px;
+    border-bottom: 4px solid rgb(226, 226, 226); */
 }
 
 .package {
     justify-content: space-evenly;
-    border: 1px solid;
     font-size: 1.3rem;
     vertical-align: center;
-
+    width: 500px;
+    height: 250px;
+    margin: 20px;
 }
